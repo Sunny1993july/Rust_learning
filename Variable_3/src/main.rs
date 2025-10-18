@@ -3,7 +3,8 @@ fn main() {
     println!("The value of x is: {x}.");
     x = 65;
     println!("Trying to reassign after mut was added in front of x. The value of x is now, {x}. ");
-
+    const TEST : &str= "Test";
+    println!("The constant : {TEST}.")
 
 
 }
